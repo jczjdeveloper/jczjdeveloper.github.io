@@ -67,7 +67,7 @@ body {
 .thumbnail {
   min-height: 54vh;
   max-height: 54vh;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .portfolioRow {
