@@ -24,3 +24,28 @@ body {
   height: 30vh;
   text-align: center;
 }
+
+.portfolioRow {
+  height: 30vh;
+  text-align: center;
+  background: gray;
+}
+
+.contactRow {
+  text-align: center;
+}
+
+.iconRow {
+  text-align: center;
+}
+
+.mailBtn, .githubBtn {
+  color: black;
+}
+
+
+
+footer {
+  margin-top: 5vh;
+  text-align: center;
+}
