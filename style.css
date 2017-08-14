@@ -10,6 +10,11 @@ a {
 .navbar {
   background: black;
   color: white;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 23px;
 }
 
 
@@ -18,10 +23,15 @@ a {
   background-position: center;
   background-size: cover;
   color: white;
-  font-weight: bold;
+  font-size: 40px;
   text-align: center;
   padding-top: 40vh;
   height: 100vh;
+}
+
+#coverHeader {
+  font-size: 80px;
+  font-weight: bold;
 }
 
 .aboutRow {
@@ -34,9 +44,29 @@ a {
   padding-top: 8vh;
 }
 
+#aboutHeader {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#aboutDescription {
+  font-size: 20px;
+}
+
 #portfolio {
   padding-top: 8vh;
 }
+
+#portfolioHeader {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#portfolioDescription {
+  font-size: 20px;
+}
+
+
 .portfolioRow {
   height: 30vh;
   text-align: center;
@@ -71,12 +101,22 @@ a {
   padding-top: 8vh;
 }
 
+#contactHeader {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#contactDescription {
+  font-size: 20px;
+}
+
 .iconRow {
   text-align: center;
 }
 
 .mailBtn, .githubBtn {
   color: black;
+  padding: 0 20px 0 20px;
 }
 
 
