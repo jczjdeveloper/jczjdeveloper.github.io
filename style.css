@@ -64,6 +64,11 @@ body {
   font-size: 20px;
 }
 
+.thumbnail {
+  min-height: 54vh;
+  max-height: 54vh;
+  overflow: hidden;
+}
 
 .portfolioRow {
   height: 20vh;
