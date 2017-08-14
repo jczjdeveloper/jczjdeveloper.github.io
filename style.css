@@ -3,10 +3,15 @@ body {
   padding-right: 0;
 }
 
+a {
+  color: white;
+}
+
 .navbar {
   background: black;
   color: white;
 }
+
 
 .coverRow {
   background-image: url('images/CoverBackground.jpg');
@@ -22,12 +27,20 @@ body {
 .aboutRow {
   height: 30vh;
   text-align: center;
+  padding: 0 10vw 0 10vw;
 }
 
+#about {
+  padding-top: 8vh;
+}
+
+#portfolio {
+  padding-top: 8vh;
+}
 .portfolioRow {
   height: 30vh;
   text-align: center;
-  /*background: gray;*/
+  padding: 0 10vw 0 10vw;
 }
 
 .portfolioRowOne, .portfolioRowTwo {
@@ -52,6 +65,10 @@ body {
 
 .contactRow {
   text-align: center;
+}
+
+#contact {
+  padding-top: 8vh;
 }
 
 .iconRow {
